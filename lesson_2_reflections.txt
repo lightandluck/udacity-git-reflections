@@ -12,10 +12,13 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	I can place only the files to be commited into the staging area. I can also use variations of git diff to be certain changes are correct between the working directory and staging area, and the staging area and the repository.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches help keep history organized by keeping experimental, temporary fixes away from the main branch. If things in the branch don't work out, we can discard it without worrying about it's changes polluting our main branch. This works for bug fixes to make sure we don't introduce new bugs. Also works for new features.
 
 How do the diagrams help you visualize the branch structure?
+
+	The diagrams help because we can see where branches have diverged and which commits they have in common. They also help us see if any commit is unreachable.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
